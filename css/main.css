@@ -184,3 +184,10 @@ textarea#profileText {
 .btn-group.btn-group-vertical:first-child:hover > .btn-group:first-child > .btn-group-vertical > .btn {
   border-bottom-left-radius: 0;
 }
+
+.trophy-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
