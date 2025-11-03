@@ -31,7 +31,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#tabPlaythrough" data-toggle="tab" data-target="#tabPlaythrough,#btnHideCompleted">Playthrough</a></li>
           <li><a href="#tabChecklists" data-toggle="tab" data-target="#tabChecklists,#btnHideCompleted">Trophies</a></li>
-          <li><a href="#tabWeaponsShields" data-toggle="tab" data-target="#tabWeaponsShields,#btnHideCompleted">Weapons & Shields</a></li>
+          <li><a href="#tabMuseum" data-toggle="tab" data-target="#tabMuseum,#btnHideCompleted">Museum</a></li>
           <li><a href="#tabArmors" data-toggle="tab" data-target="#tabArmors,#btnHideCompleted">Armor</a></li>
           <li><a href="#tabMisc" data-toggle="tab" data-target="#tabMisc,#btnHideCompleted">Misc</a></li>
           <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
@@ -811,202 +811,121 @@
         </div>
       </div>
 
-      <!-- WEAPONS & SHIELDS START -->
-      <div class="tab-pane" id="tabWeaponsShields">
-        <h2>Weapons & Shields <span id="weapons_overall_total"></span></h2>
+      <!-- Museum START -->
+      <div class="tab-pane" id="tabMuseum">
+        <h2>Museum <span id="museum_overall_total"></span></h2>
         <ul class="table_of_contents">
-          <li><a href="#Weapons">Weapons</a> <span id="weapons_nav_totals_1"></span></li>
-          <li><a href="#Shields">Shields</a> <span id="weapons_nav_totals_2"></span></li>
+          <li><a href="#Artefacts">Artefacts</a> <span id="museum_nav_totals_1"></span></li>
+          <li><a href="#Minerals">Minerals</a> <span id="museum_nav_totals_2"></span></li>
         </ul>
 
         <div class="form-group">
-          <input type="search" id="weapons_search" class="form-control" placeholder="Start typing to filter results..." />
+          <input type="search" id="museum_search" class="form-control" placeholder="Start typing to filter results..." />
         </div>
 
-        <div id="weapons_list">
-          <h3 id="Weapons"><a href="#Weapons_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://demonssouls.wiki.fextralife.com/Weapons">Weapons</a> <span id="weapons_totals_1"></span></h3>
-          <div id="Weapons_col" class="collapse in">
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Daggers">Daggers</a></h4>
-            <ul>
-              <li data-id="weapons_1_1"><a href="https://demonssouls.wiki.fextralife.com/Dagger">Dagger</a></li>
-			  <li data-id="weapons_1_2"><a href="https://demonssouls.wiki.fextralife.com/Parrying+Dagger">Parrying Dagger</a></li>
-			  <li data-id="weapons_1_3"><a href="https://demonssouls.wiki.fextralife.com/Secret+Dagger">Secret Dagger</a></li>
-			  <li data-id="weapons_1_4"><a href="https://demonssouls.wiki.fextralife.com/Baby's+Nail">Baby's Nail</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Straight+Swords">Straight Swords</a></h4>
-            <ul>
-              <li data-id="weapons_1_5"><a href="https://demonssouls.wiki.fextralife.com/Blueblood+Sword">Blueblood Sword</a></li>
-			  <li data-id="weapons_1_6"><a href="https://demonssouls.wiki.fextralife.com/Broad+Sword">Broad Sword</a></li>
-			  <li data-id="weapons_1_7"><a href="https://demonssouls.wiki.fextralife.com/Broken+Sword">Broken Sword</a></li>
-			  <li data-id="weapons_1_8"><a href="https://demonssouls.wiki.fextralife.com/Long+Sword">Long Sword</a></li>
-			  <li data-id="weapons_1_9"><a href="https://demonssouls.wiki.fextralife.com/Knight+Sword">Knight Sword</a></li>
-			  <li data-id="weapons_1_10"><a href="https://demonssouls.wiki.fextralife.com/Kris+Blade">Kris Blade</a></li>
-			  <li data-id="weapons_1_11"><a href="https://demonssouls.wiki.fextralife.com/Penetrating+Sword">Penetrating Sword</a></li>
-			  <li data-id="weapons_1_12"><a href="https://demonssouls.wiki.fextralife.com/Rune+Sword">Rune Sword</a></li>
-			  <li data-id="weapons_1_13"><a href="https://demonssouls.wiki.fextralife.com/Short+Sword">Short Sword</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Large+Swords">Large Swords</a></h4>
-            <ul>
-              <li data-id="weapons_1_14"><a href="https://demonssouls.wiki.fextralife.com/Bastard+Sword">Bastard Sword</a></li>
-			  <li data-id="weapons_1_15"><a href="https://demonssouls.wiki.fextralife.com/Claymore">Claymore</a></li>
-			  <li data-id="weapons_1_16"><a href="https://demonssouls.wiki.fextralife.com/Demonbrandt">Demonbrandt</a></li>
-			  <li data-id="weapons_1_17"><a href="https://demonssouls.wiki.fextralife.com/Flamberge">Flamberge</a></li>
-			  <li data-id="weapons_1_18"><a href="https://demonssouls.wiki.fextralife.com/Large+Sword+of+Moonlight">Large Sword of Moonlight</a></li>
-			  <li data-id="weapons_1_19"><a href="https://demonssouls.wiki.fextralife.com/Northern+Regalia">Northern Regalia</a></li>
-			  <li data-id="weapons_1_20"><a href="https://demonssouls.wiki.fextralife.com/Morion+Blade">Morion Blade</a></li>
-			  <li data-id="weapons_1_21"><a href="https://demonssouls.wiki.fextralife.com/Soulbrandt">Soulbrandt</a></li>
-			  <li data-id="weapons_1_22"><a href="https://demonssouls.wiki.fextralife.com/Stormruler">Stormruler</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Very+Large+Swords">Very Large Swords</a></h4>
-            <ul>
-              <li data-id="weapons_1_23"><a href="https://demonssouls.wiki.fextralife.com/Dragon+Bone+Smasher">Dragon Bone Smasher</a></li>
-			  <li data-id="weapons_1_24"><a href="https://demonssouls.wiki.fextralife.com/Great+Sword">Great Sword</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Curved+Swords">Curved Swords</a></h4>
-            <ul>
-              <li data-id="weapons_1_25"><a href="https://demonssouls.wiki.fextralife.com/Blind">Blind</a></li>
-			  <li data-id="weapons_1_26"><a href="https://demonssouls.wiki.fextralife.com/Falchion">Falchion</a></li>
-			  <li data-id="weapons_1_27"><a href="https://demonssouls.wiki.fextralife.com/Kilij">Kilij</a></li>
-			  <li data-id="weapons_1_28"><a href="https://demonssouls.wiki.fextralife.com/Large+Sword+of+Searching">Large Sword of Searching</a></li>
-			  <li data-id="weapons_1_29"><a href="https://demonssouls.wiki.fextralife.com/Scimitar">Scimitar</a></li>
-			  <li data-id="weapons_1_30"><a href="https://demonssouls.wiki.fextralife.com/Shotel">Shotel</a></li>
-            </ul>
-			
-			<h4><a href="https://demonssouls.wiki.fextralife.com/Katanas">Katanas</a></h4>
-            <ul>
-              <li data-id="weapons_1_31"><a href="https://demonssouls.wiki.fextralife.com/Hiltless">Hiltless</a></li>
-			  <li data-id="weapons_1_32"><a href="https://demonssouls.wiki.fextralife.com/Magic+Sword+Makoto">Magic Sword "Makoto"</a></li>
-			  <li data-id="weapons_1_33"><a href="https://demonssouls.wiki.fextralife.com/Uchigatana">Uchigatana</a></li>
+        <div id="museum_list">
+          <h3 id="Artefacts"><a href="#Artefacts_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://stardewvalleywiki.com/Artifacts">Artefacts</a> <span id="museum_totals_1"></span></h3>
+          	<ul id="Artefacts_col" class="collapse in">
+				<li data-id="museum_1_1"><img src="https://stardewvalleywiki.com/Special:FilePath/Dwarf_Scroll_I.png" alt="Dwarf Scroll I" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dwarf_Scroll_I">Dwarf Scroll I</a></li>
+				<li data-id="museum_1_2"><img src="https://stardewvalleywiki.com/Special:FilePath/Dwarf_Scroll_II.png" alt="Dwarf Scroll II" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dwarf_Scroll_II">Dwarf Scroll II</a></li>
+				<li data-id="museum_1_3"><img src="https://stardewvalleywiki.com/Special:FilePath/Dwarf_Scroll_III.png" alt="Dwarf Scroll III" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dwarf_Scroll_III">Dwarf Scroll III</a></li>
+				<li data-id="museum_1_4"><img src="https://stardewvalleywiki.com/Special:FilePath/Dwarf_Scroll_IV.png" alt="Dwarf Scroll IV" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dwarf_Scroll_IV">Dwarf Scroll IV</a></li>
+				<li data-id="museum_1_5"><img src="https://stardewvalleywiki.com/Special:FilePath/Chipped_Amphora.png" alt="Chipped Amphora" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chipped_Amphora">Chipped Amphora</a></li>
+				<li data-id="museum_1_6"><img src="https://stardewvalleywiki.com/Special:FilePath/Arrowhead.png" alt="Arrowhead" class="checklist-icon"><a href="https://stardewvalleywiki.com/Arrowhead">Arrowhead</a></li>
+				<li data-id="museum_1_7"><img src="https://stardewvalleywiki.com/Special:FilePath/Ancient_Doll.png" alt="Ancient Doll" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ancient_Doll">Ancient Doll</a></li>
+				<li data-id="museum_1_8"><img src="https://stardewvalleywiki.com/Special:FilePath/Elvish_Jewelry.png" alt="Elvish Jewelry" class="checklist-icon"><a href="https://stardewvalleywiki.com/Elvish_Jewelry">Elvish Jewelry</a></li>
+				<li data-id="museum_1_9"><img src="https://stardewvalleywiki.com/Special:FilePath/Chewing_Stick.png" alt="Chewing Stick" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chewing_Stick">Chewing Stick</a></li>
+				<li data-id="museum_1_10"><img src="https://stardewvalleywiki.com/Special:FilePath/Ornamental_Fan.png" alt="Ornamental Fan" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ornamental_Fan">Ornamental Fan</a></li>
+				<li data-id="museum_1_11"><img src="https://stardewvalleywiki.com/Special:FilePath/Dinosaur_Egg.png" alt="Dinosaur Egg" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dinosaur_Egg">Dinosaur Egg</a></li>
+				<li data-id="museum_1_12"><img src="https://stardewvalleywiki.com/Special:FilePath/Rare_Disc.png" alt="Rare Disc" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rare_Disc">Rare Disc</a></li>
+				<li data-id="museum_1_13"><img src="https://stardewvalleywiki.com/Special:FilePath/Ancient_Sword.png" alt="Ancient Sword" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ancient_Sword">Ancient Sword</a></li>
+				<li data-id="museum_1_14"><img src="https://stardewvalleywiki.com/Special:FilePath/Rusty_Spoon.png" alt="Rusty Spoon" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rusty_Spoon">Rusty Spoon</a></li>
+				<li data-id="museum_1_15"><img src="https://stardewvalleywiki.com/Special:FilePath/Rusty_Spur.png" alt="Rusty Spur" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rusty_Spur">Rusty Spur</a></li>
+				<li data-id="museum_1_16"><img src="https://stardewvalleywiki.com/Special:FilePath/Rusty_Cog.png" alt="Rusty Cog" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rusty_Cog">Rusty Cog</a></li>
+				<li data-id="museum_1_17"><img src="https://stardewvalleywiki.com/Special:FilePath/Chicken_Statue.png" alt="Chicken Statue" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chicken_Statue">Chicken Statue</a></li>
+				<li data-id="museum_1_18"><img src="https://stardewvalleywiki.com/Special:FilePath/Ancient_Seed.png" alt="Ancient Seed" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ancient_Seed">Ancient Seed</a></li>
+				<li data-id="museum_1_19"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Tool.png" alt="Prehistoric Tool" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Tool">Prehistoric Tool</a></li>
+				<li data-id="museum_1_20"><img src="https://stardewvalleywiki.com/Special:FilePath/Dried_Starfish.png" alt="Dried Starfish" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dried_Starfish">Dried Starfish</a></li>
+				<li data-id="museum_1_21"><img src="https://stardewvalleywiki.com/Special:FilePath/Anchor.png" alt="Anchor" class="checklist-icon"><a href="https://stardewvalleywiki.com/Anchor">Anchor</a></li>
+				<li data-id="museum_1_22"><img src="https://stardewvalleywiki.com/Special:FilePath/Glass_Shards.png" alt="Glass Shards" class="checklist-icon"><a href="https://stardewvalleywiki.com/Glass_Shards">Glass Shards</a></li>
+				<li data-id="museum_1_23"><img src="https://stardewvalleywiki.com/Special:FilePath/Bone_Flute.png" alt="Bone Flute" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bone_Flute">Bone Flute</a></li>
+				<li data-id="museum_1_24"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Handaxe.png" alt="Prehistoric Handaxe" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Handaxe">Prehistoric Handaxe</a></li>
+				<li data-id="museum_1_25"><img src="https://stardewvalleywiki.com/Special:FilePath/Dwarvish_Helm.png" alt="Dwarvish Helm" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dwarvish_Helm">Dwarvish Helm</a></li>
+				<li data-id="museum_1_26"><img src="https://stardewvalleywiki.com/Special:FilePath/Dwarf_Gadget.png" alt="Dwarf Gadget" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dwarf_Gadget">Dwarf Gadget</a></li>
+				<li data-id="museum_1_27"><img src="https://stardewvalleywiki.com/Special:FilePath/Ancient_Drum.png" alt="Ancient Drum" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ancient_Drum">Ancient Drum</a></li>
+				<li data-id="museum_1_28"><img src="https://stardewvalleywiki.com/Special:FilePath/Golden_Mask.png" alt="Golden Mask" class="checklist-icon"><a href="https://stardewvalleywiki.com/Golden_Mask">Golden Mask</a></li>
+				<li data-id="museum_1_29"><img src="https://stardewvalleywiki.com/Special:FilePath/Golden_Relic.png" alt="Golden Relic" class="checklist-icon"><a href="https://stardewvalleywiki.com/Golden_Relic">Golden Relic</a></li>
+				<li data-id="museum_1_30"><img src="https://stardewvalleywiki.com/Special:FilePath/Strange_Doll_(green).png" alt="Strange Doll (green)" class="checklist-icon"><a href="https://stardewvalleywiki.com/Strange_Doll_(green)">Strange Doll (green)</a></li>
+				<li data-id="museum_1_31"><img src="https://stardewvalleywiki.com/Special:FilePath/Strange_Doll_(yellow).png" alt="Strange Doll (yellow)" class="checklist-icon"><a href="https://stardewvalleywiki.com/Strange_Doll_(yellow)">Strange Doll (yellow)</a></li>
+				<li data-id="museum_1_32"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Scapula.png" alt="Prehistoric Scapula" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Scapula">Prehistoric Scapula</a></li>
+				<li data-id="museum_1_33"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Tibia.png" alt="Prehistoric Tibia" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Tibia">Prehistoric Tibia</a></li>
+				<li data-id="museum_1_34"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Skull.png" alt="Prehistoric Skull" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Skull">Prehistoric Skull</a></li>
+				<li data-id="museum_1_35"><img src="https://stardewvalleywiki.com/Special:FilePath/Skeletal_Hand.png" alt="Skeletal Hand" class="checklist-icon"><a href="https://stardewvalleywiki.com/Skeletal_Hand">Skeletal Hand</a></li>
+				<li data-id="museum_1_36"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Rib.png" alt="Prehistoric Rib" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Rib">Prehistoric Rib</a></li>
+				<li data-id="museum_1_37"><img src="https://stardewvalleywiki.com/Special:FilePath/Prehistoric_Vertebra.png" alt="Prehistoric Vertebra" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prehistoric_Vertebra">Prehistoric Vertebra</a></li>
+				<li data-id="museum_1_38"><img src="https://stardewvalleywiki.com/Special:FilePath/Skeletal_Tail.png" alt="Skeletal Tail" class="checklist-icon"><a href="https://stardewvalleywiki.com/Skeletal_Tail">Skeletal Tail</a></li>
+				<li data-id="museum_1_39"><img src="https://stardewvalleywiki.com/Special:FilePath/Nautilus_Fossil.png" alt="Nautilus Fossil" class="checklist-icon"><a href="https://stardewvalleywiki.com/Nautilus_Fossil">Nautilus Fossil</a></li>
+				<li data-id="museum_1_40"><img src="https://stardewvalleywiki.com/Special:FilePath/Amphibian_Fossil.png" alt="Amphibian Fossil" class="checklist-icon"><a href="https://stardewvalleywiki.com/Amphibian_Fossil">Amphibian Fossil</a></li>
+				<li data-id="museum_1_41"><img src="https://stardewvalleywiki.com/Special:FilePath/Palm_Fossil.png" alt="Palm Fossil" class="checklist-icon"><a href="https://stardewvalleywiki.com/Palm_Fossil">Palm Fossil</a></li>
+				<li data-id="museum_1_42"><img src="https://stardewvalleywiki.com/Special:FilePath/Trilobite.png" alt="Trilobite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Trilobite">Trilobite</a></li>
             </ul>
 
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Thrusting+Swords">Thrusting Swords</a></h4>
-            <ul>
-              <li data-id="weapons_1_34"><a href="https://demonssouls.wiki.fextralife.com/Epee+Rapier">Epee Rapier</a></li>
-			  <li data-id="weapons_1_35"><a href="https://demonssouls.wiki.fextralife.com/Estoc">Estoc</a></li>
-			  <li data-id="weapons_1_36"><a href="https://demonssouls.wiki.fextralife.com/Geri's+Stiletto">Geri's Stiletto</a></li>
-			  <li data-id="weapons_1_37"><a href="https://demonssouls.wiki.fextralife.com/Needle+of+Eternal+Agony">Needle of Eternal Agony</a></li>
-			  <li data-id="weapons_1_38"><a href="https://demonssouls.wiki.fextralife.com/Mail+Breaker">Mail Breaker</a></li>
-			  <li data-id="weapons_1_39"><a href="https://demonssouls.wiki.fextralife.com/Rapier">Rapier</a></li>
-			  <li data-id="weapons_1_40"><a href="https://demonssouls.wiki.fextralife.com/Spiral+Rapier">Spiral Rapier</a></li>
-            </ul>
-
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Axes">Axes</a></h4>
-            <ul>
-              <li data-id="weapons_1_41"><a href="https://demonssouls.wiki.fextralife.com/Battle+Axe">Battle Axe</a></li>
-			  <li data-id="weapons_1_42"><a href="https://demonssouls.wiki.fextralife.com/Guillotine+Axe">Guillotine Axe</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Large+Axes">Large Axes</a></h4>
-            <ul>
-              <li data-id="weapons_1_43"><a href="https://demonssouls.wiki.fextralife.com/Crescent+Axe">Crescent Axe</a></li>
-			  <li data-id="weapons_1_44"><a href="https://demonssouls.wiki.fextralife.com/Dozer+Axe">Dozer Axe</a></li>
-			  <li data-id="weapons_1_45"><a href="https://demonssouls.wiki.fextralife.com/Great+Axe">Great Axe</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Hammers">Hammers</a></h4>
-            <ul>
-              <li data-id="weapons_1_46"><a href="https://demonssouls.wiki.fextralife.com/Club">Club</a></li>
-			  <li data-id="weapons_1_47"><a href="https://demonssouls.wiki.fextralife.com/Mace">Mace</a></li>
-			  <li data-id="weapons_1_48"><a href="https://demonssouls.wiki.fextralife.com/Morning+Star">Morning Star</a></li>
-			  <li data-id="weapons_1_49"><a href="https://demonssouls.wiki.fextralife.com/Pickaxe">Pickaxe</a></li>
-			  <li data-id="weapons_1_50"><a href="https://demonssouls.wiki.fextralife.com/War+Pick">War Pick</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Large+Hammers">Large Hammers</a></h4>
-            <ul>
-              <li data-id="weapons_1_51"><a href="https://demonssouls.wiki.fextralife.com/Bramd">Bramd</a></li>
-			  <li data-id="weapons_1_52"><a href="https://demonssouls.wiki.fextralife.com/Great+Club">Great Club</a></li>
-			  <li data-id="weapons_1_53"><a href="https://demonssouls.wiki.fextralife.com/Meat+Cleaver">Meat Cleaver</a></li>
-            </ul>
-			
-			<h4><a href="https://demonssouls.wiki.fextralife.com/Fist+Weapons">Fist Weapons</a></h4>
-            <ul>
-              <li data-id="weapons_1_54"><a href="https://demonssouls.wiki.fextralife.com/Claws">Claws</a></li>
-			  <li data-id="weapons_1_55"><a href="https://demonssouls.wiki.fextralife.com/Hands+of+God">Hands of God</a></li>
-			  <li data-id="weapons_1_56"><a href="https://demonssouls.wiki.fextralife.com/Iron+Knuckles">Iron Knuckles</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Spears">Spears</a></h4>
-            <ul>
-              <li data-id="weapons_1_57"><a href="https://demonssouls.wiki.fextralife.com/Istarelle">Istarelle</a></li>
-			  <li data-id="weapons_1_58"><a href="https://demonssouls.wiki.fextralife.com/Scraping+Spear">Scraping Spear</a></li>
-			  <li data-id="weapons_1_59"><a href="https://demonssouls.wiki.fextralife.com/Short+Spear">Short Spear</a></li>
-			  <li data-id="weapons_1_60"><a href="https://demonssouls.wiki.fextralife.com/Winged+Spear">Winged Spear</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Polearms">Polearms</a></h4>
-            <ul>
-              <li data-id="weapons_1_61"><a href="https://demonssouls.wiki.fextralife.com/Halberd">Halberd</a></li>
-			  <li data-id="weapons_1_62"><a href="https://demonssouls.wiki.fextralife.com/Mirdan+Hammer">Mirdan Hammer</a></li>
-			  <li data-id="weapons_1_63"><a href="https://demonssouls.wiki.fextralife.com/Phosphorescent+Pole">Phosphorescent Pole</a></li>
-			  <li data-id="weapons_1_64"><a href="https://demonssouls.wiki.fextralife.com/War+Scythe">War Scythe</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Bows">Bows</a></h4>
-            <ul>
-              <li data-id="weapons_1_65"><a href="https://demonssouls.wiki.fextralife.com/Compound+Long+Bow">Compound Long Bow</a></li>
-			  <li data-id="weapons_1_66"><a href="https://demonssouls.wiki.fextralife.com/Compound+Short+Bow">Compound Short Bow</a></li>
-			  <li data-id="weapons_1_67"><a href="https://demonssouls.wiki.fextralife.com/Lava+Bow">Lava Bow</a></li>
-			  <li data-id="weapons_1_68"><a href="https://demonssouls.wiki.fextralife.com/Long+Bow">Long Bow</a></li>
-			  <li data-id="weapons_1_69"><a href="https://demonssouls.wiki.fextralife.com/Short+Bow">Short Bow</a></li>
-			  <li data-id="weapons_1_70"><a href="https://demonssouls.wiki.fextralife.com/White+Bow">White Bow</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Crossbows">Crossbows</a></h4>
-            <ul>
-              <li data-id="weapons_1_71"><a href="https://demonssouls.wiki.fextralife.com/Gargoyle+Crossbow">Gargoyle Crossbow</a></li>
-			  <li data-id="weapons_1_72"><a href="https://demonssouls.wiki.fextralife.com/Heavy+Crossbow">Heavy Crossbow</a></li>
-			  <li data-id="weapons_1_73"><a href="https://demonssouls.wiki.fextralife.com/Light+Crossbow">Light Crossbow</a></li>
-            </ul>
-			
-			<h4><a href="https://demonssouls.wiki.fextralife.com/Catalysts">Catalysts</a></h4>
-            <ul>
-              <li data-id="weapons_1_74"><a href="https://demonssouls.wiki.fextralife.com/Insanity+Catalyst">Insanity Catalyst</a></li>
-			  <li data-id="weapons_1_75"><a href="https://demonssouls.wiki.fextralife.com/Silver+Catalyst">Silver Catalyst</a></li>
-			  <li data-id="weapons_1_76"><a href="https://demonssouls.wiki.fextralife.com/Wooden+Catalyst">Wooden Catalyst</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Talismans">Talismans</a></h4>
-            <ul>
-              <li data-id="weapons_1_77"><a href="https://demonssouls.wiki.fextralife.com/Talisman+of+Beasts">Talisman of Beasts</a></li>
-			  <li data-id="weapons_1_78"><a href="https://demonssouls.wiki.fextralife.com/Talisman+of+God">Talisman of God</a></li>
-            </ul>
-          </div>
-
-          <h3 id="Shields"><a href="#Shields_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://demonssouls.wiki.fextralife.com/Shields">Shields</a> <span id="weapons_totals_2"></span></h3>
-          <div id="Shields_col" class="collapse in">			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Small+Shields">Small Shields</a></h4>
-            <ul>
-              <li data-id="weapons_2_1"><a href="https://demonssouls.wiki.fextralife.com/Buckler">Buckler</a></li>
-			  <li data-id="weapons_2_2"><a href="https://demonssouls.wiki.fextralife.com/Leather+Shield">Leather Shield</a></li>
-			  <li data-id="weapons_2_3"><a href="https://demonssouls.wiki.fextralife.com/Rune+Shield">Rune Shield</a></li>
-			  <li data-id="weapons_2_4"><a href="https://demonssouls.wiki.fextralife.com/Slave's+Shield">Slave's Shield</a></li>
-			  <li data-id="weapons_2_5"><a href="https://demonssouls.wiki.fextralife.com/Soldier's+Shield">Soldier's Shield</a></li>
-			  <li data-id="weapons_2_6"><a href="https://demonssouls.wiki.fextralife.com/Wooden+Shield">Wooden Shield</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Standard+Shields">Standard Shields</a></h4>
-            <ul>
-              <li data-id="weapons_2_7"><a href="https://demonssouls.wiki.fextralife.com/Dark+Silver+Shield">Dark Silver Shield</a></li>
-			  <li data-id="weapons_2_8"><a href="https://demonssouls.wiki.fextralife.com/Heater+Shield">Heater Shield</a></li>
-			  <li data-id="weapons_2_9"><a href="https://demonssouls.wiki.fextralife.com/Kite+Shield">Kite Shield</a></li>
-			  <li data-id="weapons_2_10"><a href="https://demonssouls.wiki.fextralife.com/Knight's+Shield">Knight's Shield</a></li>
-			  <li data-id="weapons_2_11"><a href="https://demonssouls.wiki.fextralife.com/Spiked+Shield">Spiked Shield</a></li>
-            </ul>
-			
-            <h4><a href="https://demonssouls.wiki.fextralife.com/Large+Shield">Greatshields</a></h4>
-            <ul>
-              <li data-id="weapons_2_12"><a href="https://demonssouls.wiki.fextralife.com/Adjudicator's+Shield">Adjudicator's Shield</a></li>
-			  <li data-id="weapons_2_13"><a href="https://demonssouls.wiki.fextralife.com/Large+Brushwood+Shield">Large Brushwood Shield</a></li>
-			  <li data-id="weapons_2_14"><a href="https://demonssouls.wiki.fextralife.com/Purple+Flame+Shield">Purple Flame Shield</a></li>
-			  <li data-id="weapons_2_15"><a href="https://demonssouls.wiki.fextralife.com/Steel+Shield">Steel Shield</a></li>
-			  <li data-id="weapons_2_16"><a href="https://demonssouls.wiki.fextralife.com/Tower+Shield">Tower Shield</a></li>
-            </ul>
-          </div>
+          <h3 id="Minerals"><a href="#Minerals_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://stardewvalleywiki.com/Minerals">Minerals</a> <span id="museum_totals_2"></span></h3>
+            <ul id="Minerals_col" class="collapse in">
+              	<li data-id="museum_2_1"><img src="https://stardewvalleywiki.com/Special:FilePath/Emerald.png" alt="Emerald" class="checklist-icon"><a href="https://stardewvalleywiki.com/Emerald">Emerald</a></li>
+			  	<li data-id="museum_2_2"><img src="https://stardewvalleywiki.com/Special:FilePath/Aquamarine.png" alt="Aquamarine" class="checklist-icon"><a href="https://stardewvalleywiki.com/Aquamarine">Aquamarine</a></li>
+			  	<li data-id="museum_2_3"><img src="https://stardewvalleywiki.com/Special:FilePath/Ruby.png" alt="Ruby" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ruby">Ruby</a></li>
+			  	<li data-id="museum_2_4"><img src="https://stardewvalleywiki.com/Special:FilePath/Amethyst.png" alt="Amethyst" class="checklist-icon"><a href="https://stardewvalleywiki.com/Amethyst">Amethyst</a></li>
+			  	<li data-id="museum_2_5"><img src="https://stardewvalleywiki.com/Special:FilePath/Topaz.png" alt="Topaz" class="checklist-icon"><a href="https://stardewvalleywiki.com/Topaz">Topaz</a></li>
+				<li data-id="museum_2_6"><img src="https://stardewvalleywiki.com/Special:FilePath/Jade.png" alt="Jade" class="checklist-icon"><a href="https://stardewvalleywiki.com/Jade">Jade</a></li>
+				<li data-id="museum_2_7"><img src="https://stardewvalleywiki.com/Special:FilePath/Diamond.png" alt="Diamond" class="checklist-icon"><a href="https://stardewvalleywiki.com/Diamond">Diamond</a></li>
+				<li data-id="museum_2_8"><img src="https://stardewvalleywiki.com/Special:FilePath/Prismatic_Shard.png" alt="Prismatic Shard" class="checklist-icon"><a href="https://stardewvalleywiki.com/Prismatic_Shard">Prismatic Shard</a></li>
+				<li data-id="museum_2_9"><img src="https://stardewvalleywiki.com/Special:FilePath/Quartz.png" alt="Quartz" class="checklist-icon"><a href="https://stardewvalleywiki.com/Quartz">Quartz</a></li>
+				<li data-id="museum_2_10"><img src="https://stardewvalleywiki.com/Special:FilePath/Fire_Quartz.png" alt="Fire Quartz" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fire_Quartz">Fire Quartz</a></li>
+				<li data-id="museum_2_11"><img src="https://stardewvalleywiki.com/Special:FilePath/Frozen_Tear.png" alt="Frozen Tear" class="checklist-icon"><a href="https://stardewvalleywiki.com/Frozen_Tear">Frozen Tear</a></li>
+				<li data-id="museum_2_12"><img src="https://stardewvalleywiki.com/Special:FilePath/Earth_Crystal.png" alt="Earth Crystal" class="checklist-icon"><a href="https://stardewvalleywiki.com/Earth_Crystal">Earth Crystal</a></li>
+				<li data-id="museum_2_13"><img src="https://stardewvalleywiki.com/Special:FilePath/Alamite.png" alt="Alamite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Alamite">Alamite</a></li>
+				<li data-id="museum_2_14"><img src="https://stardewvalleywiki.com/Special:FilePath/Bixite.png" alt="Bixite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bixite">Bixite</a></li>
+				<li data-id="museum_2_15"><img src="https://stardewvalleywiki.com/Special:FilePath/Baryte.png" alt="Baryte" class="checklist-icon"><a href="https://stardewvalleywiki.com/Baryte">Baryte</a></li>
+				<li data-id="museum_2_16"><img src="https://stardewvalleywiki.com/Special:FilePath/Aerinite.png" alt="Aerinite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Aerinite">Aerinite</a></li>
+				<li data-id="museum_2_17"><img src="https://stardewvalleywiki.com/Special:FilePath/Calcite.png" alt="Calcite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Calcite">Calcite</a></li>
+				<li data-id="museum_2_18"><img src="https://stardewvalleywiki.com/Special:FilePath/Dolomite.png" alt="Dolomite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dolomite">Dolomite</a></li>
+				<li data-id="museum_2_19"><img src="https://stardewvalleywiki.com/Special:FilePath/Esperite.png" alt="Esperite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Esperite">Esperite</a></li>
+				<li data-id="museum_2_20"><img src="https://stardewvalleywiki.com/Special:FilePath/Fluorapatite.png" alt="Fluorapatite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fluorapatite">Fluorapatite</a></li>
+				<li data-id="museum_2_21"><img src="https://stardewvalleywiki.com/Special:FilePath/Geminite.png" alt="Geminite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Geminite">Geminite</a></li>
+				<li data-id="museum_2_22"><img src="https://stardewvalleywiki.com/Special:FilePath/Helvite.png" alt="Helvite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Helvite">Helvite</a></li>
+				<li data-id="museum_2_23"><img src="https://stardewvalleywiki.com/Special:FilePath/Jamborite.png" alt="Jamborite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Jamborite">Jamborite</a></li>
+				<li data-id="museum_2_24"><img src="https://stardewvalleywiki.com/Special:FilePath/Jagoite.png" alt="Jagoite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Jagoite">Jagoite</a></li>
+				<li data-id="museum_2_25"><img src="https://stardewvalleywiki.com/Special:FilePath/Kyanite.png" alt="Kyanite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Kyanite">Kyanite</a></li>
+				<li data-id="museum_2_26"><img src="https://stardewvalleywiki.com/Special:FilePath/Lunarite.png" alt="Lunarite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Lunarite">Lunarite</a></li>
+				<li data-id="museum_2_27"><img src="https://stardewvalleywiki.com/Special:FilePath/Malachite.png" alt="Malachite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Malachite">Malachite</a></li>
+				<li data-id="museum_2_28"><img src="https://stardewvalleywiki.com/Special:FilePath/Neptunite.png" alt="Neptunite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Neptunite">Neptunite</a></li>
+				<li data-id="museum_2_29"><img src="https://stardewvalleywiki.com/Special:FilePath/Lemon_Stone.png" alt="Lemon Stone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Lemon_Stone">Lemon Stone</a></li>
+				<li data-id="museum_2_30"><img src="https://stardewvalleywiki.com/Special:FilePath/Nekoite.png" alt="Nekoite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Nekoite">Nekoite</a></li>
+				<li data-id="museum_2_31"><img src="https://stardewvalleywiki.com/Special:FilePath/Orpiment.png" alt="Orpiment" class="checklist-icon"><a href="https://stardewvalleywiki.com/Orpiment">Orpiment</a></li>
+				<li data-id="museum_2_32"><img src="https://stardewvalleywiki.com/Special:FilePath/Petrified_Slime.png" alt="Petrified Slime" class="checklist-icon"><a href="https://stardewvalleywiki.com/Petrified_Slime">Petrified Slime</a></li>
+				<li data-id="museum_2_33"><img src="https://stardewvalleywiki.com/Special:FilePath/Thunder_Egg.png" alt="Thunder Egg" class="checklist-icon"><a href="https://stardewvalleywiki.com/Thunder_Egg">Thunder Egg</a></li>
+				<li data-id="museum_2_34"><img src="https://stardewvalleywiki.com/Special:FilePath/Pyrite.png" alt="Pyrite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pyrite">Pyrite</a></li>
+				<li data-id="museum_2_35"><img src="https://stardewvalleywiki.com/Special:FilePath/Ocean_Stone.png" alt="Ocean Stone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ocean_Stone">Ocean Stone</a></li>
+				<li data-id="museum_2_36"><img src="https://stardewvalleywiki.com/Special:FilePath/Ghost_Crystal.png" alt="Ghost Crystal" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ghost_Crystal">Ghost Crystal</a></li>
+				<li data-id="museum_2_37"><img src="https://stardewvalleywiki.com/Special:FilePath/Tigerseye.png" alt="Tigerseye" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tigerseye">Tigerseye</a></li>
+				<li data-id="museum_2_38"><img src="https://stardewvalleywiki.com/Special:FilePath/Jasper.png" alt="Jasper" class="checklist-icon"><a href="https://stardewvalleywiki.com/Jasper">Jasper</a></li>
+				<li data-id="museum_2_39"><img src="https://stardewvalleywiki.com/Special:FilePath/Opal.png" alt="Opal" class="checklist-icon"><a href="https://stardewvalleywiki.com/Opal">Opal</a></li>
+				<li data-id="museum_2_40"><img src="https://stardewvalleywiki.com/Special:FilePath/Fire_Opal.png" alt="Fire Opal" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fire_Opal">Fire Opal</a></li>
+				<li data-id="museum_2_41"><img src="https://stardewvalleywiki.com/Special:FilePath/Celestine.png" alt="Celestine" class="checklist-icon"><a href="https://stardewvalleywiki.com/Celestine">Celestine</a></li>
+				<li data-id="museum_2_42"><img src="https://stardewvalleywiki.com/Special:FilePath/Marble.png" alt="Marble" class="checklist-icon"><a href="https://stardewvalleywiki.com/Marble">Marble</a></li>
+				<li data-id="museum_2_43"><img src="https://stardewvalleywiki.com/Special:FilePath/Sandstone.png" alt="Sandstone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Sandstone">Sandstone</a></li>
+				<li data-id="museum_2_44"><img src="https://stardewvalleywiki.com/Special:FilePath/Granite.png" alt="Granite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Granite">Granite</a></li>
+				<li data-id="museum_2_45"><img src="https://stardewvalleywiki.com/Special:FilePath/Basalt.png" alt="Basalt" class="checklist-icon"><a href="https://stardewvalleywiki.com/Basalt">Basalt</a></li>
+				<li data-id="museum_2_46"><img src="https://stardewvalleywiki.com/Special:FilePath/Limestone.png" alt="Limestone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Limestone">Limestone</a></li>
+				<li data-id="museum_2_47"><img src="https://stardewvalleywiki.com/Special:FilePath/Soapstone.png" alt="Soapstone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Soapstone">Soapstone</a></li>
+				<li data-id="museum_2_48"><img src="https://stardewvalleywiki.com/Special:FilePath/Hematite.png" alt="Hematite" class="checklist-icon"><a href="https://stardewvalleywiki.com/Hematite">Hematite</a></li>
+				<li data-id="museum_2_49"><img src="https://stardewvalleywiki.com/Special:FilePath/Mudstone.png" alt="Mudstone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Mudstone">Mudstone</a></li>
+				<li data-id="museum_2_50"><img src="https://stardewvalleywiki.com/Special:FilePath/Obsidian.png" alt="Obsidian" class="checklist-icon"><a href="https://stardewvalleywiki.com/Obsidian">Obsidian</a></li>
+				<li data-id="museum_2_51"><img src="https://stardewvalleywiki.com/Special:FilePath/Slate.png" alt="Slate" class="checklist-icon"><a href="https://stardewvalleywiki.com/Slate">Slate</a></li>
+				<li data-id="museum_2_52"><img src="https://stardewvalleywiki.com/Special:FilePath/Fairy_Stone.png" alt="Fairy Stone" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fairy_Stone">Fairy Stone</a></li>
+				<li data-id="museum_2_53"><img src="https://stardewvalleywiki.com/Special:FilePath/Star_Shards.png" alt="Star Shards" class="checklist-icon"><a href="https://stardewvalleywiki.com/Star_Shards">Star Shards</a></li>
+			</ul>
         </div>
       </div>
 

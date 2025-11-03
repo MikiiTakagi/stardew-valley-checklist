@@ -191,3 +191,10 @@ textarea#profileText {
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.checklist-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
