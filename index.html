@@ -32,7 +32,8 @@
           <li class="active"><a href="#tabPlaythrough" data-toggle="tab" data-target="#tabPlaythrough,#btnHideCompleted">Playthrough</a></li>
           <li><a href="#tabChecklists" data-toggle="tab" data-target="#tabChecklists,#btnHideCompleted">Trophies</a></li>
           <li><a href="#tabMuseum" data-toggle="tab" data-target="#tabMuseum,#btnHideCompleted">Museum</a></li>
-          <li><a href="#tabArmors" data-toggle="tab" data-target="#tabArmors,#btnHideCompleted">Armor</a></li>
+          <li><a href="#tabCooking" data-toggle="tab" data-target="#tabCooking,#btnHideCompleted">Cooking</a></li>
+		  <li><a href="#tabCrafting" data-toggle="tab" data-target="#tabCrafting,#btnHideCompleted">Crafting</a></li>
           <li><a href="#tabMisc" data-toggle="tab" data-target="#tabMisc,#btnHideCompleted">Misc</a></li>
           <li><a href="#tabFAQ" data-toggle="tab"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
           <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Options</a></li>
@@ -47,8 +48,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h1>Stardew Valley Checklist</h1>
-        <p class="lead">Contribute to the guide at the <a href="">PLACEHOLDER</a></p>
+        <h1>RedRain Stardew Valley Checklist</h1>
+        <p class="lead">PLACEHOLDER FOR ISSUE IN THE CHECKLIST</p>
       </div>
     </div>
 
@@ -929,108 +930,200 @@
         </div>
       </div>
 
-      <!-- ARMOR START -->
-      <div class="tab-pane" id="tabArmors">
-        <h2>Armor <span id="armors_overall_total"></span></h2>
+      <!-- Cooking START -->
+      <div class="tab-pane" id="tabCooking">
+        <h2>Cooking <span id="cooking_overall_total"></span></h2>
         <ul class="table_of_contents">
-          <li><a href="#Helms">Head</a> <span id="armors_nav_totals_1"></span></li>
-          <li><a href="#Chests">Chest</a> <span id="armors_nav_totals_2"></span></li>
-          <li><a href="#Gauntlets">Gauntlets</a> <span id="armors_nav_totals_3"></span></li>
-          <li><a href="#Leggings">Leggings</a> <span id="armors_nav_totals_4"></span></li>
+          <li><a href="#Recipes">Recipes</a> <span id="cooking_nav_totals_1"></span></li>
         </ul>
 
         <div class="form-group">
-          <input type="search" id="armors_search" class="form-control" placeholder="Start typing to filter results..." />
+          <input type="search" id="cooking_search" class="form-control" placeholder="Start typing to filter results..." />
         </div>
 
-        <div id="armors_list">
-          <h3 id="Helms"><a href="#Helms_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://demonssouls.wiki.fextralife.com/Helms">Helms</a> <span id="armors_totals_1"></span></h3>
-          <ul id="Helms_col" class="collapse in">
-            <li data-id="armors_1_1"><a href="https://demonssouls.wiki.fextralife.com/Ancient+King's+Mask">Ancient King's Mask</a></li>
-			<li data-id="armors_1_2"><a href="https://demonssouls.wiki.fextralife.com/Assassin's+Mask">Assassin's Mask</a></li>
-			<li data-id="armors_1_3"><a href="https://demonssouls.wiki.fextralife.com/Binded+Hood">Binded Hood</a></li>
-			<li data-id="armors_1_4"><a href="https://demonssouls.wiki.fextralife.com/Brushwood+Helmet">Brushwood Helmet</a></li>
-			<li data-id="armors_1_5"><a href="https://demonssouls.wiki.fextralife.com/Chain+Helmet">Chain Helmet</a></li>
-			<li data-id="armors_1_6"><a href="https://demonssouls.wiki.fextralife.com/Dark+Silver+Helmet">Dark Silver Helmet</a></li>
-			<li data-id="armors_1_7"><a href="https://demonssouls.wiki.fextralife.com/Dull+Gold+Helmet">Dull Gold Helmet</a></li>
-			<li data-id="armors_1_8"><a href="https://demonssouls.wiki.fextralife.com/Fluted+Helmet">Fluted Helmet</a></li>
-			<li data-id="armors_1_9"><a href="https://demonssouls.wiki.fextralife.com/Gloom+Helmet">Gloom Helmet</a></li>
-			<li data-id="armors_1_10"><a href="https://demonssouls.wiki.fextralife.com/Gold+Mask">Gold Mask</a></li>
-			<li data-id="armors_1_11"><a href="https://demonssouls.wiki.fextralife.com/Leather+Cap">Leather Cap</a></li>
-			<li data-id="armors_1_12"><a href="https://demonssouls.wiki.fextralife.com/Mirdan+Helmet">Mirdan Helmet</a></li>
-			<li data-id="armors_1_13"><a href="https://demonssouls.wiki.fextralife.com/Monk's+Head+Collar">Monk's Head Collar</a></li>
-			<li data-id="armors_1_14"><a href="https://demonssouls.wiki.fextralife.com/Official's+Cap">Official's Cap</a></li>
-			<li data-id="armors_1_15"><a href="https://demonssouls.wiki.fextralife.com/Plate+Helmet">Plate Helmet</a></li>
-			<li data-id="armors_1_16"><a href="https://demonssouls.wiki.fextralife.com/Silver+Coronet">Silver Coronet</a></li>
-			<li data-id="armors_1_17"><a href="https://demonssouls.wiki.fextralife.com/Three+Cornered+Hat">Three Cornered Hat</a></li>
-			<li data-id="armors_1_18"><a href="https://demonssouls.wiki.fextralife.com/Venerable+Sage's+Hood">Venerable Sage's Hood</a></li>
+        <div id="cooking_list">
+          <h3 id="Recipes"><a href="#Recipes_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://demonssouls.wiki.fextralife.com/Helms">Recipes</a> <span id="cooking_totals_1"></span></h3>
+          <ul id="Recipes_col" class="collapse in">
+            <li data-id="cooking_1_1"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Egg.png" alt="Friend Egg" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Egg">Fried Egg</a></li>
+			<li data-id="cooking_1_2"><img src="https://stardewvalleywiki.com/Special:FilePath/Omelet.png" alt="Omelet" class="checklist-icon"><a href="https://stardewvalleywiki.com/Omelet">Omelet</a></li>
+			<li data-id="cooking_1_3"><img src="https://stardewvalleywiki.com/Special:FilePath/Salad.png" alt="Salad" class="checklist-icon"><a href="https://stardewvalleywiki.com/Salad">Salad</a></li>
+			<li data-id="cooking_1_4"><img src="https://stardewvalleywiki.com/Special:FilePath/Cheese_Cauliflower.png" alt="Cheese Cauliflower" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cheese_Cauliflower">Cheese Cauliflower</a></li>
+			<li data-id="cooking_1_5"><img src="https://stardewvalleywiki.com/Special:FilePath/Baked_Fish.png" alt="Baked Fish" class="checklist-icon"><a href="https://stardewvalleywiki.com/Baked_Fish">Baked Fish</a></li>
+			<li data-id="cooking_1_6"><img src="https://stardewvalleywiki.com/Special:FilePath/Parsnip_Soup.png" alt="Parsnip Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Parsnip_Soup">Parsnip Soup</a></li>
+			<li data-id="cooking_1_7"><img src="https://stardewvalleywiki.com/Special:FilePath/Vegetable_Medley.png" alt="Vegetable Medley" class="checklist-icon"><a href="https://stardewvalleywiki.com/Vegetable_Medley">Vegetable Medley</a></li>
+			<li data-id="cooking_1_8"><img src="https://stardewvalleywiki.com/Special:FilePath/Complete_Breakfast.png" alt="Complete Breakfast" class="checklist-icon"><a href="https://stardewvalleywiki.com/Complete_Breakfast">Complete Breakfast</a></li>
+			<li data-id="cooking_1_9"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Calamari.png" alt="Fried Calamari" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Calamari">Fried Calamari</a></li>
+			<li data-id="cooking_1_10"><img src="https://stardewvalleywiki.com/Special:FilePath/Strange_Bun.png" alt="Strange Bun" class="checklist-icon"><a href="https://stardewvalleywiki.com/Strange_Bun">Strange Bun</a></li>
+			<li data-id="cooking_1_11"><img src="https://stardewvalleywiki.com/Special:FilePath/Lucky_Lunch.png" alt="Lucky Lunch" class="checklist-icon"><a href="https://stardewvalleywiki.com/Lucky_Lunch">Lucky Lunch</a></li>
+			<li data-id="cooking_1_12"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Mushroom.png" alt="Fried Mushroom" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Mushroom">Fried Mushroom</a></li>
+			<li data-id="cooking_1_13"><img src="https://stardewvalleywiki.com/Special:FilePath/Pizza.png" alt="Pizza" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pizza">Pizza</a></li>
+			<li data-id="cooking_1_14"><img src="https://stardewvalleywiki.com/Special:FilePath/Bean_Hotpot.png" alt="Bean Hotpot" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bean_Hotpot">Bean Hotpot</a></li>
+			<li data-id="cooking_1_15"><img src="https://stardewvalleywiki.com/Special:FilePath/Glazed_Yams.png" alt="Glazed Yams" class="checklist-icon"><a href="https://stardewvalleywiki.com/Glazed_Yams">Glazed Yams</a></li>
+			<li data-id="cooking_1_16"><img src="https://stardewvalleywiki.com/Special:FilePath/Carp_Surprise.png" alt="Carp Surprise" class="checklist-icon"><a href="https://stardewvalleywiki.com/Carp_Surprise">Carp Surprise</a></li>
+			<li data-id="cooking_1_17"><img src="https://stardewvalleywiki.com/Special:FilePath/Hashbrowns.png" alt="Hashbrowns" class="checklist-icon"><a href="https://stardewvalleywiki.com/Hashbrowns">Hashbrowns</a></li>
+			<li data-id="cooking_1_18"><img src="https://stardewvalleywiki.com/Special:FilePath/Pancakes.png" alt="Pancakes" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pancakes">Pancakes</a></li>
+			<li data-id="cooking_1_19"><img src="https://stardewvalleywiki.com/Special:FilePath/Salmon_Dinner.png" alt="Salmon Dinner" class="checklist-icon"><a href="https://stardewvalleywiki.com/Salmon_Dinner">Salmon Dinner</a></li>
+			<li data-id="cooking_1_20"><img src="https://stardewvalleywiki.com/Special:FilePath/Fish_Taco.png" alt="Fish Taco" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fish_Taco">Fish Taco</a></li>
+			<li data-id="cooking_1_21"><img src="https://stardewvalleywiki.com/Special:FilePath/Crispy_Bass.png" alt="Crispy Bass" class="checklist-icon"><a href="https://stardewvalleywiki.com/Crispy_Bass">Crispy Bass</a></li>
+			<li data-id="cooking_1_22"><img src="https://stardewvalleywiki.com/Special:FilePath/Pepper_Poppers.png" alt="Pepper Poppers" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pepper_Poppers">Pepper Poppers</a></li>
+			<li data-id="cooking_1_23"><img src="https://stardewvalleywiki.com/Special:FilePath/Bread.png" alt="Bread" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bread">Bread</a></li>
+			<li data-id="cooking_1_24"><img src="https://stardewvalleywiki.com/Special:FilePath/Tom_Kha_Soup.png" alt="Tom Kha Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tom_Kha_Soup">Tom Kha Soup</a></li>
+			<li data-id="cooking_1_25"><img src="https://stardewvalleywiki.com/Special:FilePath/Trout_Soup.png" alt="Trout Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Trout_Soup">Trout Soup</a></li>
+			<li data-id="cooking_1_26"><img src="https://stardewvalleywiki.com/Special:FilePath/Chocolate_Cake.png" alt="Chocolate Cake" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chocolate_Cake">Chocolate Cake</a></li>
+			<li data-id="cooking_1_27"><img src="https://stardewvalleywiki.com/Special:FilePath/Pink_Cake.png" alt="Pink Cake" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pink_Cake">Pink Cake</a></li>
+			<li data-id="cooking_1_28"><img src="https://stardewvalleywiki.com/Special:FilePath/Rhubarb_Pie.png" alt="Rhubarb Pie" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rhubarb_Pie">Rhubarb Pie</a></li>
+			<li data-id="cooking_1_29"><img src="https://stardewvalleywiki.com/Special:FilePath/Cookie.png" alt="Cookie" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cookie">Cookie</a></li>
+			<li data-id="cooking_1_30"><img src="https://stardewvalleywiki.com/Special:FilePath/Spaghetti.png" alt="Spaghetti" class="checklist-icon"><a href="https://stardewvalleywiki.com/Spaghetti">Spaghetti</a></li>
+			<li data-id="cooking_1_31"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Eel.png" alt="Fried Eel" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Eel">Fried Eel</a></li>
+			<li data-id="cooking_1_32"><img src="https://stardewvalleywiki.com/Special:FilePath/Spicy_Eel.png" alt="Spicy Eel" class="checklist-icon"><a href="https://stardewvalleywiki.com/Spicy_Eel">Spicy Eel</a></li>
+			<li data-id="cooking_1_33"><img src="https://stardewvalleywiki.com/Special:FilePath/Sashimi.png" alt="Sashimi" class="checklist-icon"><a href="https://stardewvalleywiki.com/Sashimi">Sashimi</a></li>
+			<li data-id="cooking_1_34"><img src="https://stardewvalleywiki.com/Special:FilePath/Maki_Roll.png" alt="Maki Roll" class="checklist-icon"><a href="https://stardewvalleywiki.com/Maki_Roll">Maki Roll</a></li>
+			<li data-id="cooking_1_35"><img src="https://stardewvalleywiki.com/Special:FilePath/Tortilla.png" alt="Tortilla" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tortilla">Tortilla</a></li>
+			<li data-id="cooking_1_36"><img src="https://stardewvalleywiki.com/Special:FilePath/Red_Plate.png" alt="Red Plate" class="checklist-icon"><a href="https://stardewvalleywiki.com/Red_Plate">Red Plate</a></li>
+			<li data-id="cooking_1_37"><img src="https://stardewvalleywiki.com/Special:FilePath/Eggplant_Parmesan.png" alt="Eggplant Parmesan" class="checklist-icon"><a href="https://stardewvalleywiki.com/Eggplant_Parmesan">Eggplant Parmesan</a></li>
+			<li data-id="cooking_1_38"><img src="https://stardewvalleywiki.com/Special:FilePath/Rice_Pudding.png" alt="Rice Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rice_Pudding">Rice Pudding</a></li>
+			<li data-id="cooking_1_39"><img src="https://stardewvalleywiki.com/Special:FilePath/Ice_Cream.png" alt="Ice Cream" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ice_Cream">Ice Cream</a></li>
+			<li data-id="cooking_1_40"><img src="https://stardewvalleywiki.com/Special:FilePath/Blueberry_Tart.png" alt="Blueberry Tart" class="checklist-icon"><a href="https://stardewvalleywiki.com/Blueberry_Tart">Blueberry Tart</a></li>
+			<li data-id="cooking_1_41"><img src="https://stardewvalleywiki.com/Special:FilePath/Autumn's_Bounty.png" alt="Autumn's Bounty" class="checklist-icon"><a href="https://stardewvalleywiki.com/Autumn's_Bounty">Autumn's Bounty</a></li>
+			<li data-id="cooking_1_42"><img src="https://stardewvalleywiki.com/Special:FilePath/Pumpkin_Soup.png" alt="Pumpkin Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pumpkin_Soup">Pumpkin Soup</a></li>
+			<li data-id="cooking_1_43"><img src="https://stardewvalleywiki.com/Special:FilePath/Super_Meal.png" alt="Super Meal" class="checklist-icon"><a href="https://stardewvalleywiki.com/Super_Meal">Super Meal</a></li>
+			<li data-id="cooking_1_44"><img src="https://stardewvalleywiki.com/Special:FilePath/Cranberry_Sauce.png" alt="Cranberry Sauce" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cranberry_Sauce">Cranberry Sauce</a></li>
+			<li data-id="cooking_1_45"><img src="https://stardewvalleywiki.com/Special:FilePath/Stuffing.png" alt="Stuffing" class="checklist-icon"><a href="https://stardewvalleywiki.com/Stuffing">Stuffing</a></li>
+			<li data-id="cooking_1_46"><img src="https://stardewvalleywiki.com/Special:FilePath/Farmer's_Lunch.png" alt="Farmer's Lunch" class="checklist-icon"><a href="https://stardewvalleywiki.com/Farmer's_Lunch">Farmer's Lunch</a></li>
+			<li data-id="cooking_1_47"><img src="https://stardewvalleywiki.com/Special:FilePath/Survival_Burger.png" alt="Survival Burger" class="checklist-icon"><a href="https://stardewvalleywiki.com/Survival_Burger">Survival Burger</a></li>
+			<li data-id="cooking_1_48"><img src="https://stardewvalleywiki.com/Special:FilePath/Dish_O'_The_Sea.png" alt="Dish O' The Sea" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dish_O'_The_Sea">Dish O' The Sea</a></li>
+			<li data-id="cooking_1_49"><img src="https://stardewvalleywiki.com/Special:FilePath/Miner's_Treat.png" alt="Miner's Treat" class="checklist-icon"><a href="https://stardewvalleywiki.com/Miner's_Treat">Miner's Treat</a></li>
+			<li data-id="cooking_1_50"><img src="https://stardewvalleywiki.com/Special:FilePath/Roots_Platter.png" alt="Roots Platter" class="checklist-icon"><a href="https://stardewvalleywiki.com/Roots_Platter">Roots Platter</a></li>
+			<li data-id="cooking_1_51"><img src="https://stardewvalleywiki.com/Special:FilePath/Triple_Shot_Espresso.png" alt="Triple Shot Espresso" class="checklist-icon"><a href="https://stardewvalleywiki.com/Triple_Shot_Espresso">Triple Shot Espresso</a></li>
+			<li data-id="cooking_1_52"><img src="https://stardewvalleywiki.com/Special:FilePath/Seafoam_Pudding.png" alt="Seafoam Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Seafoam_Pudding">Seafoam Pudding</a></li>
+			<li data-id="cooking_1_53"><img src="https://stardewvalleywiki.com/Special:FilePath/Algae_Soup.png" alt="Algae Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Algae_Soup">Algae Soup</a></li>
+			<li data-id="cooking_1_54"><img src="https://stardewvalleywiki.com/Special:FilePath/Pale_Broth.png" alt="Pale Broth" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pale_Broth">Pale Broth</a></li>
+			<li data-id="cooking_1_55"><img src="https://stardewvalleywiki.com/Special:FilePath/Plum_Pudding.png" alt="Plum Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Plum_Pudding">Plum Pudding</a></li>
+			<li data-id="cooking_1_56"><img src="https://stardewvalleywiki.com/Special:FilePath/Artichoke_Dip.png" alt="Artichoke Dip" class="checklist-icon"><a href="https://stardewvalleywiki.com/Artichoke_Dip">Artichoke Dip</a></li>
+			<li data-id="cooking_1_57"><img src="https://stardewvalleywiki.com/Special:FilePath/Stir_Fry.png" alt="Stir Fry" class="checklist-icon"><a href="https://stardewvalleywiki.com/Stir_Fry">Stir Fry</a></li>
+			<li data-id="cooking_1_58"><img src="https://stardewvalleywiki.com/Special:FilePath/Roasted_Hazelnuts.png" alt="Roasted Hazelnuts" class="checklist-icon"><a href="https://stardewvalleywiki.com/Roasted_Hazelnuts">Roasted Hazelnuts</a></li>
+			<li data-id="cooking_1_59"><img src="https://stardewvalleywiki.com/Special:FilePath/Pumpkin_Pie.png" alt="Pumpkin Pie" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pumpkin_Pie">Pumpkin Pie</a></li>
+			<li data-id="cooking_1_60"><img src="https://stardewvalleywiki.com/Special:FilePath/Radish_Salad.png" alt="Radish Salad" class="checklist-icon"><a href="https://stardewvalleywiki.com/Radish_Salad">Radish Salad</a></li>
+			<li data-id="cooking_1_61"><img src="https://stardewvalleywiki.com/Special:FilePath/Fruit_Salad.png" alt="Fruit Salad" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fruit_Salad">Fruit Salad</a></li>
+			<li data-id="cooking_1_62"><img src="https://stardewvalleywiki.com/Special:FilePath/Blackberry_Cobbler.png" alt="Blackberry Cobbler" class="checklist-icon"><a href="https://stardewvalleywiki.com/Blackberry_Cobbler">Blackberry Cobbler</a></li>
+			<li data-id="cooking_1_63"><img src="https://stardewvalleywiki.com/Special:FilePath/Cranberry_Candy.png" alt="Cranberry Candy" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cranberry_Candy">Cranberry Candy</a></li>
+			<li data-id="cooking_1_64"><img src="https://stardewvalleywiki.com/Special:FilePath/Bruschetta.png" alt="Bruschetta" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bruschetta">Bruschetta</a></li>
+			<li data-id="cooking_1_65"><img src="https://stardewvalleywiki.com/Special:FilePath/Coleslaw.png" alt="Coleslaw" class="checklist-icon"><a href="https://stardewvalleywiki.com/Coleslaw">Coleslaw</a></li>
+			<li data-id="cooking_1_66"><img src="https://stardewvalleywiki.com/Special:FilePath/Fiddlehead_Risotto.png" alt="Fiddlehead Risotto" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fiddlehead_Risotto">Fiddlehead Risotto</a></li>
+			<li data-id="cooking_1_67"><img src="https://stardewvalleywiki.com/Special:FilePath/Poppyseed_Muffin.png" alt="Poppyseed Muffin" class="checklist-icon"><a href="https://stardewvalleywiki.com/Poppyseed_Muffin">Poppyseed Muffin</a></li>
+			<li data-id="cooking_1_68"><img src="https://stardewvalleywiki.com/Special:FilePath/Chowder.png" alt="Chowder" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chowder">Chowder</a></li>
+			<li data-id="cooking_1_69"><img src="https://stardewvalleywiki.com/Special:FilePath/Fish_Stew.png" alt="Fish Stew" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fish_Stew">Fish Stew</a></li>
+			<li data-id="cooking_1_70"><img src="https://stardewvalleywiki.com/Special:FilePath/Escargot.png" alt="Escargot" class="checklist-icon"><a href="https://stardewvalleywiki.com/Escargot">Escargot</a></li>
+			<li data-id="cooking_1_71"><img src="https://stardewvalleywiki.com/Special:FilePath/Lobster_Bisque.png" alt="Lobster Bisque" class="checklist-icon"><a href="https://stardewvalleywiki.com/Lobster_Bisque">Lobster Bisque</a></li>
+			<li data-id="cooking_1_72"><img src="https://stardewvalleywiki.com/Special:FilePath/Maple_Bar.png" alt="Maple Bar" class="checklist-icon"><a href="https://stardewvalleywiki.com/Maple_Bar">Maple Bar</a></li>
+			<li data-id="cooking_1_73"><img src="https://stardewvalleywiki.com/Special:FilePath/Crab_Cakes.png" alt="Crab Cakes" class="checklist-icon"><a href="https://stardewvalleywiki.com/Crab_Cakes">Crab Cakes</a></li>
+			<li data-id="cooking_1_74"><img src="https://stardewvalleywiki.com/Special:FilePath/Shrimp_Cocktail.png" alt="Shrimp Cocktail" class="checklist-icon"><a href="https://stardewvalleywiki.com/Shrimp_Cocktail">Shrimp Cocktail</a></li>
+			<li data-id="cooking_1_75"><img src="https://stardewvalleywiki.com/Special:FilePath/Ginger_Ale.png" alt="Ginger Ale" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ginger_Ale">Ginger Ale</a></li>
+			<li data-id="cooking_1_76"><img src="https://stardewvalleywiki.com/Special:FilePath/Banana_Pudding.png" alt="Banana Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Banana_Pudding">Banana Pudding</a></li>
+			<li data-id="cooking_1_77"><img src="https://stardewvalleywiki.com/Special:FilePath/Mango_Sticky_Rice.png" alt="Mango Sticky Rice" class="checklist-icon"><a href="https://stardewvalleywiki.com/Mango_Sticky_Rice">Mango Sticky Rice</a></li>
+			<li data-id="cooking_1_78"><img src="https://stardewvalleywiki.com/Special:FilePath/Poi.png" alt="Poi" class="checklist-icon"><a href="https://stardewvalleywiki.com/Poi">Poi</a></li>
+			<li data-id="cooking_1_79"><img src="https://stardewvalleywiki.com/Special:FilePath/Tropical_Curry.png" alt="Tropical Curry" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tropical_Curry">Tropical Curry</a></li>
+			<li data-id="cooking_1_80"><img src="https://stardewvalleywiki.com/Special:FilePath/Squid_Ink_Ravioli.png" alt="Squid Ink Ravioli" class="checklist-icon"><a href="https://stardewvalleywiki.com/Squid_Ink_Ravioli">Squid Ink Ravioli</a></li>
+			<li data-id="cooking_1_81"><img src="https://stardewvalleywiki.com/Special:FilePath/Moss_Soup.png" alt="Moss Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Moss_Soup">Moss Soup</a></li>
           </ul>
-		  
-          <h3 id="Chests"><a href="#Chests_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://demonssouls.wiki.fextralife.com/Chest+Armors">Chest</a> <span id="armors_totals_2"></span></h3>
-          <ul id="Chests_col" class="collapse in">
-            <li data-id="armors_2_1"><a href="https://demonssouls.wiki.fextralife.com/Ancient+King's+Breastplate">Ancient King's Breastplate</a></li>
-			<li data-id="armors_2_2"><a href="https://demonssouls.wiki.fextralife.com/Binded+Cross">Binded Cross</a></li>
-			<li data-id="armors_2_3"><a href="https://demonssouls.wiki.fextralife.com/Black+Leather">Black Leather</a></li>
-			<li data-id="armors_2_4"><a href="https://demonssouls.wiki.fextralife.com/Brushwood+Armor">Brushwood Armor</a></li>
-			<li data-id="armors_2_5"><a href="https://demonssouls.wiki.fextralife.com/Chain+Mail">Chain Mail</a></li>
-			<li data-id="armors_2_6"><a href="https://demonssouls.wiki.fextralife.com/Coat+of+Plate">Coat of Plate</a></li>
-			<li data-id="armors_2_7"><a href="https://demonssouls.wiki.fextralife.com/Dark+Silver+Armor">Dark Silver Armor</a></li>
-			<li data-id="armors_2_8"><a href="https://demonssouls.wiki.fextralife.com/Dull+Gold+Armor">Dull Gold Armor</a></li>
-			<li data-id="armors_2_9"><a href="https://demonssouls.wiki.fextralife.com/Fluted+Armor">Fluted Armor</a></li>
-			<li data-id="armors_2_10"><a href="https://demonssouls.wiki.fextralife.com/Gloom+Armor">Gloom Armor</a></li>
-			<li data-id="armors_2_11"><a href="https://demonssouls.wiki.fextralife.com/Leather+Armor">Leather Armor</a></li>
-			<li data-id="armors_2_12"><a href="https://demonssouls.wiki.fextralife.com/Mirdan+Scale+Mail">Mirdan Scale Mail</a></li>
-			<li data-id="armors_2_13"><a href="https://demonssouls.wiki.fextralife.com/Old+Raggedy+Robes">Old Raggedy Robes</a></li>
-			<li data-id="armors_2_14"><a href="https://demonssouls.wiki.fextralife.com/Rogue's+Clothes">Rogue's Clothes</a></li>
-			<li data-id="armors_2_15"><a href="https://demonssouls.wiki.fextralife.com/Saint's+Robes">Saint's Robes</a></li>
-			<li data-id="armors_2_16"><a href="https://demonssouls.wiki.fextralife.com/Shaman's+Clothes">Shaman's Clothes</a></li>
-			<li data-id="armors_2_17"><a href="https://demonssouls.wiki.fextralife.com/Venerable+Sage's+Robe">Venerable Sage's Robe</a></li>
-			<li data-id="armors_2_18"><a href="https://demonssouls.wiki.fextralife.com/Wizard's+Clothes">Wizard's Clothes</a></li>
-          </ul>
-		  
-          <h3 id="Gauntlets"><a href="#Gauntlets_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://demonssouls.wiki.fextralife.com/Gauntlets">Gauntlets</a> <span id="armors_totals_3"></span></h3>
-          <ul id="Gauntlets_col" class="collapse in">
-			<li data-id="armors_3_1"><a href="https://demonssouls.wiki.fextralife.com/Ancient+King's+Gauntlets">Ancient King's Gauntlets</a></li>
-			<li data-id="armors_3_2"><a href="https://demonssouls.wiki.fextralife.com/Binded+Gloves">Binded Gloves</a></li>
-			<li data-id="armors_3_3"><a href="https://demonssouls.wiki.fextralife.com/Black+Gloves">Black Gloves</a></li>
-			<li data-id="armors_3_4"><a href="https://demonssouls.wiki.fextralife.com/Brushwood+Gauntlets">Brushwood Gauntlets</a></li>
-			<li data-id="armors_3_5"><a href="https://demonssouls.wiki.fextralife.com/Chain+Gloves">Chain Gloves</a></li>
-			<li data-id="armors_3_6"><a href="https://demonssouls.wiki.fextralife.com/Dark+Silver+Manifer">Dark Silver Manifer</a></li>
-			<li data-id="armors_3_7"><a href="https://demonssouls.wiki.fextralife.com/Dull+Gold+Manifer">Dull Gold Manifer</a></li>
-			<li data-id="armors_3_8"><a href="https://demonssouls.wiki.fextralife.com/Fluted+Gauntlets">Fluted Gauntlets</a></li>
-			<li data-id="armors_3_9"><a href="https://demonssouls.wiki.fextralife.com/Gloom+Gauntlets">Gloom Gauntlets</a></li>
-			<li data-id="armors_3_10"><a href="https://demonssouls.wiki.fextralife.com/Leather+Gloves">Leather Gloves</a></li>
-			<li data-id="armors_3_11"><a href="https://demonssouls.wiki.fextralife.com/Mirdan+Gauntlets">Mirdan Gauntlets</a></li>
-			<li data-id="armors_3_12"><a href="https://demonssouls.wiki.fextralife.com/Old+Raggedy+Gloves">Old Raggedy Gloves</a></li>
-			<li data-id="armors_3_13"><a href="https://demonssouls.wiki.fextralife.com/Plate+Gauntlets">Plate Gauntlets</a></li>
-			<li data-id="armors_3_14"><a href="https://demonssouls.wiki.fextralife.com/Rogue's+Gloves">Rogue's Gloves</a></li>
-			<li data-id="armors_3_15"><a href="https://demonssouls.wiki.fextralife.com/Saint's+Gloves">Saint's Gloves</a></li>
-			<li data-id="armors_3_16"><a href="https://demonssouls.wiki.fextralife.com/Shaman's+Armband">Shaman's Armband</a></li>
-			<li data-id="armors_3_17"><a href="https://demonssouls.wiki.fextralife.com/Silver+Bracelet">Silver Bracelet</a></li>
-			<li data-id="armors_3_18"><a href="https://demonssouls.wiki.fextralife.com/Venerable+Sage's+Gloves">Venerable Sage's Gloves</a></li>
-			<li data-id="armors_3_19"><a href="https://demonssouls.wiki.fextralife.com/Wizard's+Gloves">Wizard's Gloves</a></li>
-          </ul>
-		  
-          <h3 id="Leggings"><a href="#Leggings_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="http://demonssouls.wiki.fextralife.com/Leggings">Leggings</a> <span id="armors_totals_4"></span></h3>
-          <ul id="Leggings_col" class="collapse in">
-            <li data-id="armors_4_1"><a href="https://demonssouls.wiki.fextralife.com/Ancient+King's+Leggings">Ancient King's Leggings</a></li>
-			<li data-id="armors_4_2"><a href="https://demonssouls.wiki.fextralife.com/Binded+Boots">Binded Boots</a></li>
-			<li data-id="armors_4_3"><a href="https://demonssouls.wiki.fextralife.com/Black+Boots">Black Boots</a></li>
-			<li data-id="armors_4_4"><a href="https://demonssouls.wiki.fextralife.com/Brushwood+Leggings">Brushwood Leggings</a></li>
-			<li data-id="armors_4_5"><a href="https://demonssouls.wiki.fextralife.com/Dark+Silver+Leggings">Dark Silver Leggins</a></li>
-			<li data-id="armors_4_6"><a href="https://demonssouls.wiki.fextralife.com/Dull+Gold+Leggings">Dull Gold Leggings</a></li>
-			<li data-id="armors_4_7"><a href="https://demonssouls.wiki.fextralife.com/Fluted+Leggings">Fluted Leggings</a></li>
-			<li data-id="armors_4_8"><a href="https://demonssouls.wiki.fextralife.com/Gloom+Leggings">Gloom Leggings</a></li>
-			<li data-id="armors_4_9"><a href="https://demonssouls.wiki.fextralife.com/Hard+Leather+Boots">Hard Leather Boots</a></li>
-			<li data-id="armors_4_10"><a href="https://demonssouls.wiki.fextralife.com/Leather+Boots">Leather Boots</a></li>
-			<li data-id="armors_4_11"><a href="https://demonssouls.wiki.fextralife.com/Mirdan+Leggings">Mirdan Leggings</a></li>
-			<li data-id="armors_4_12"><a href="https://demonssouls.wiki.fextralife.com/Old+Raggedy+Boots">Old Raggedy Boots</a></li>
-			<li data-id="armors_4_13"><a href="https://demonssouls.wiki.fextralife.com/Plate+Leggings">Plate Leggings</a></li>
-			<li data-id="armors_4_14"><a href="https://demonssouls.wiki.fextralife.com/Rogue's+Boots">Rogue's Boots</a></li>
-			<li data-id="armors_4_15"><a href="https://demonssouls.wiki.fextralife.com/Saint's+Boots">Saint's Boots</a></li>
-			<li data-id="armors_4_16"><a href="https://demonssouls.wiki.fextralife.com/Shaman's+Tabi+Socks">Shaman's Tabi Socks</a></li>
-			<li data-id="armors_4_17"><a href="https://demonssouls.wiki.fextralife.com/Venerable+Sage's+Boots">Venerable Sage's Boots</a></li>
-			<li data-id="armors_4_18"><a href="https://demonssouls.wiki.fextralife.com/Wizard's+Shoes">Wizard's Shoes</a></li>
+        </div>
+      </div>
+
+	  <!-- Crafting START -->
+      <div class="tab-pane" id="tabCrafting">
+        <h2>Crafting <span id="crafting_overall_total"></span></h2>
+        <ul class="table_of_contents">
+          <li><a href="#Recipes">Recipes</a> <span id="crafting_nav_totals_1"></span></li>
+        </ul>
+
+        <div class="form-group">
+          <input type="search" id="crafting_search" class="form-control" placeholder="Start typing to filter results..." />
+        </div>
+
+        <div id="crafting_list">
+          <h3 id="Recipes"><a href="#Recipes_col" data-toggle="collapse" class="btn btn-primary btn-collapse btn-sm"></a><a href="https://demonssouls.wiki.fextralife.com/Helms">Recipes</a> <span id="crafting_totals_1"></span></h3>
+          <ul id="Recipes_col" class="collapse in">
+            <li data-id="crafting_1_1"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Egg.png" alt="Friend Egg" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Egg">Fried Egg</a></li>
+			<li data-id="crafting_1_2"><img src="https://stardewvalleywiki.com/Special:FilePath/Omelet.png" alt="Omelet" class="checklist-icon"><a href="https://stardewvalleywiki.com/Omelet">Omelet</a></li>
+			<li data-id="crafting_1_3"><img src="https://stardewvalleywiki.com/Special:FilePath/Salad.png" alt="Salad" class="checklist-icon"><a href="https://stardewvalleywiki.com/Salad">Salad</a></li>
+			<li data-id="crafting_1_4"><img src="https://stardewvalleywiki.com/Special:FilePath/Cheese_Cauliflower.png" alt="Cheese Cauliflower" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cheese_Cauliflower">Cheese Cauliflower</a></li>
+			<li data-id="crafting_1_5"><img src="https://stardewvalleywiki.com/Special:FilePath/Baked_Fish.png" alt="Baked Fish" class="checklist-icon"><a href="https://stardewvalleywiki.com/Baked_Fish">Baked Fish</a></li>
+			<li data-id="crafting_1_6"><img src="https://stardewvalleywiki.com/Special:FilePath/Parsnip_Soup.png" alt="Parsnip Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Parsnip_Soup">Parsnip Soup</a></li>
+			<li data-id="crafting_1_7"><img src="https://stardewvalleywiki.com/Special:FilePath/Vegetable_Medley.png" alt="Vegetable Medley" class="checklist-icon"><a href="https://stardewvalleywiki.com/Vegetable_Medley">Vegetable Medley</a></li>
+			<li data-id="crafting_1_8"><img src="https://stardewvalleywiki.com/Special:FilePath/Complete_Breakfast.png" alt="Complete Breakfast" class="checklist-icon"><a href="https://stardewvalleywiki.com/Complete_Breakfast">Complete Breakfast</a></li>
+			<li data-id="crafting_1_9"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Calamari.png" alt="Fried Calamari" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Calamari">Fried Calamari</a></li>
+			<li data-id="crafting_1_10"><img src="https://stardewvalleywiki.com/Special:FilePath/Strange_Bun.png" alt="Strange Bun" class="checklist-icon"><a href="https://stardewvalleywiki.com/Strange_Bun">Strange Bun</a></li>
+			<li data-id="crafting_1_11"><img src="https://stardewvalleywiki.com/Special:FilePath/Lucky_Lunch.png" alt="Lucky Lunch" class="checklist-icon"><a href="https://stardewvalleywiki.com/Lucky_Lunch">Lucky Lunch</a></li>
+			<li data-id="crafting_1_12"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Mushroom.png" alt="Fried Mushroom" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Mushroom">Fried Mushroom</a></li>
+			<li data-id="crafting_1_13"><img src="https://stardewvalleywiki.com/Special:FilePath/Pizza.png" alt="Pizza" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pizza">Pizza</a></li>
+			<li data-id="crafting_1_14"><img src="https://stardewvalleywiki.com/Special:FilePath/Bean_Hotpot.png" alt="Bean Hotpot" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bean_Hotpot">Bean Hotpot</a></li>
+			<li data-id="crafting_1_15"><img src="https://stardewvalleywiki.com/Special:FilePath/Glazed_Yams.png" alt="Glazed Yams" class="checklist-icon"><a href="https://stardewvalleywiki.com/Glazed_Yams">Glazed Yams</a></li>
+			<li data-id="crafting_1_16"><img src="https://stardewvalleywiki.com/Special:FilePath/Carp_Surprise.png" alt="Carp Surprise" class="checklist-icon"><a href="https://stardewvalleywiki.com/Carp_Surprise">Carp Surprise</a></li>
+			<li data-id="crafting_1_17"><img src="https://stardewvalleywiki.com/Special:FilePath/Hashbrowns.png" alt="Hashbrowns" class="checklist-icon"><a href="https://stardewvalleywiki.com/Hashbrowns">Hashbrowns</a></li>
+			<li data-id="crafting_1_18"><img src="https://stardewvalleywiki.com/Special:FilePath/Pancakes.png" alt="Pancakes" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pancakes">Pancakes</a></li>
+			<li data-id="crafting_1_19"><img src="https://stardewvalleywiki.com/Special:FilePath/Salmon_Dinner.png" alt="Salmon Dinner" class="checklist-icon"><a href="https://stardewvalleywiki.com/Salmon_Dinner">Salmon Dinner</a></li>
+			<li data-id="crafting_1_20"><img src="https://stardewvalleywiki.com/Special:FilePath/Fish_Taco.png" alt="Fish Taco" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fish_Taco">Fish Taco</a></li>
+			<li data-id="crafting_1_21"><img src="https://stardewvalleywiki.com/Special:FilePath/Crispy_Bass.png" alt="Crispy Bass" class="checklist-icon"><a href="https://stardewvalleywiki.com/Crispy_Bass">Crispy Bass</a></li>
+			<li data-id="crafting_1_22"><img src="https://stardewvalleywiki.com/Special:FilePath/Pepper_Poppers.png" alt="Pepper Poppers" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pepper_Poppers">Pepper Poppers</a></li>
+			<li data-id="crafting_1_23"><img src="https://stardewvalleywiki.com/Special:FilePath/Bread.png" alt="Bread" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bread">Bread</a></li>
+			<li data-id="crafting_1_24"><img src="https://stardewvalleywiki.com/Special:FilePath/Tom_Kha_Soup.png" alt="Tom Kha Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tom_Kha_Soup">Tom Kha Soup</a></li>
+			<li data-id="crafting_1_25"><img src="https://stardewvalleywiki.com/Special:FilePath/Trout_Soup.png" alt="Trout Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Trout_Soup">Trout Soup</a></li>
+			<li data-id="crafting_1_26"><img src="https://stardewvalleywiki.com/Special:FilePath/Chocolate_Cake.png" alt="Chocolate Cake" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chocolate_Cake">Chocolate Cake</a></li>
+			<li data-id="crafting_1_27"><img src="https://stardewvalleywiki.com/Special:FilePath/Pink_Cake.png" alt="Pink Cake" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pink_Cake">Pink Cake</a></li>
+			<li data-id="crafting_1_28"><img src="https://stardewvalleywiki.com/Special:FilePath/Rhubarb_Pie.png" alt="Rhubarb Pie" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rhubarb_Pie">Rhubarb Pie</a></li>
+			<li data-id="crafting_1_29"><img src="https://stardewvalleywiki.com/Special:FilePath/Cookie.png" alt="Cookie" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cookie">Cookie</a></li>
+			<li data-id="crafting_1_30"><img src="https://stardewvalleywiki.com/Special:FilePath/Spaghetti.png" alt="Spaghetti" class="checklist-icon"><a href="https://stardewvalleywiki.com/Spaghetti">Spaghetti</a></li>
+			<li data-id="crafting_1_31"><img src="https://stardewvalleywiki.com/Special:FilePath/Fried_Eel.png" alt="Fried Eel" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fried_Eel">Fried Eel</a></li>
+			<li data-id="crafting_1_32"><img src="https://stardewvalleywiki.com/Special:FilePath/Spicy_Eel.png" alt="Spicy Eel" class="checklist-icon"><a href="https://stardewvalleywiki.com/Spicy_Eel">Spicy Eel</a></li>
+			<li data-id="crafting_1_33"><img src="https://stardewvalleywiki.com/Special:FilePath/Sashimi.png" alt="Sashimi" class="checklist-icon"><a href="https://stardewvalleywiki.com/Sashimi">Sashimi</a></li>
+			<li data-id="crafting_1_34"><img src="https://stardewvalleywiki.com/Special:FilePath/Maki_Roll.png" alt="Maki Roll" class="checklist-icon"><a href="https://stardewvalleywiki.com/Maki_Roll">Maki Roll</a></li>
+			<li data-id="crafting_1_35"><img src="https://stardewvalleywiki.com/Special:FilePath/Tortilla.png" alt="Tortilla" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tortilla">Tortilla</a></li>
+			<li data-id="crafting_1_36"><img src="https://stardewvalleywiki.com/Special:FilePath/Red_Plate.png" alt="Red Plate" class="checklist-icon"><a href="https://stardewvalleywiki.com/Red_Plate">Red Plate</a></li>
+			<li data-id="crafting_1_37"><img src="https://stardewvalleywiki.com/Special:FilePath/Eggplant_Parmesan.png" alt="Eggplant Parmesan" class="checklist-icon"><a href="https://stardewvalleywiki.com/Eggplant_Parmesan">Eggplant Parmesan</a></li>
+			<li data-id="crafting_1_38"><img src="https://stardewvalleywiki.com/Special:FilePath/Rice_Pudding.png" alt="Rice Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Rice_Pudding">Rice Pudding</a></li>
+			<li data-id="crafting_1_39"><img src="https://stardewvalleywiki.com/Special:FilePath/Ice_Cream.png" alt="Ice Cream" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ice_Cream">Ice Cream</a></li>
+			<li data-id="crafting_1_40"><img src="https://stardewvalleywiki.com/Special:FilePath/Blueberry_Tart.png" alt="Blueberry Tart" class="checklist-icon"><a href="https://stardewvalleywiki.com/Blueberry_Tart">Blueberry Tart</a></li>
+			<li data-id="crafting_1_41"><img src="https://stardewvalleywiki.com/Special:FilePath/Autumn's_Bounty.png" alt="Autumn's Bounty" class="checklist-icon"><a href="https://stardewvalleywiki.com/Autumn's_Bounty">Autumn's Bounty</a></li>
+			<li data-id="crafting_1_42"><img src="https://stardewvalleywiki.com/Special:FilePath/Pumpkin_Soup.png" alt="Pumpkin Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pumpkin_Soup">Pumpkin Soup</a></li>
+			<li data-id="crafting_1_43"><img src="https://stardewvalleywiki.com/Special:FilePath/Super_Meal.png" alt="Super Meal" class="checklist-icon"><a href="https://stardewvalleywiki.com/Super_Meal">Super Meal</a></li>
+			<li data-id="crafting_1_44"><img src="https://stardewvalleywiki.com/Special:FilePath/Cranberry_Sauce.png" alt="Cranberry Sauce" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cranberry_Sauce">Cranberry Sauce</a></li>
+			<li data-id="crafting_1_45"><img src="https://stardewvalleywiki.com/Special:FilePath/Stuffing.png" alt="Stuffing" class="checklist-icon"><a href="https://stardewvalleywiki.com/Stuffing">Stuffing</a></li>
+			<li data-id="crafting_1_46"><img src="https://stardewvalleywiki.com/Special:FilePath/Farmer's_Lunch.png" alt="Farmer's Lunch" class="checklist-icon"><a href="https://stardewvalleywiki.com/Farmer's_Lunch">Farmer's Lunch</a></li>
+			<li data-id="crafting_1_47"><img src="https://stardewvalleywiki.com/Special:FilePath/Survival_Burger.png" alt="Survival Burger" class="checklist-icon"><a href="https://stardewvalleywiki.com/Survival_Burger">Survival Burger</a></li>
+			<li data-id="crafting_1_48"><img src="https://stardewvalleywiki.com/Special:FilePath/Dish_O'_The_Sea.png" alt="Dish O' The Sea" class="checklist-icon"><a href="https://stardewvalleywiki.com/Dish_O'_The_Sea">Dish O' The Sea</a></li>
+			<li data-id="crafting_1_49"><img src="https://stardewvalleywiki.com/Special:FilePath/Miner's_Treat.png" alt="Miner's Treat" class="checklist-icon"><a href="https://stardewvalleywiki.com/Miner's_Treat">Miner's Treat</a></li>
+			<li data-id="crafting_1_50"><img src="https://stardewvalleywiki.com/Special:FilePath/Roots_Platter.png" alt="Roots Platter" class="checklist-icon"><a href="https://stardewvalleywiki.com/Roots_Platter">Roots Platter</a></li>
+			<li data-id="crafting_1_51"><img src="https://stardewvalleywiki.com/Special:FilePath/Triple_Shot_Espresso.png" alt="Triple Shot Espresso" class="checklist-icon"><a href="https://stardewvalleywiki.com/Triple_Shot_Espresso">Triple Shot Espresso</a></li>
+			<li data-id="crafting_1_52"><img src="https://stardewvalleywiki.com/Special:FilePath/Seafoam_Pudding.png" alt="Seafoam Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Seafoam_Pudding">Seafoam Pudding</a></li>
+			<li data-id="crafting_1_53"><img src="https://stardewvalleywiki.com/Special:FilePath/Algae_Soup.png" alt="Algae Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Algae_Soup">Algae Soup</a></li>
+			<li data-id="crafting_1_54"><img src="https://stardewvalleywiki.com/Special:FilePath/Pale_Broth.png" alt="Pale Broth" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pale_Broth">Pale Broth</a></li>
+			<li data-id="crafting_1_55"><img src="https://stardewvalleywiki.com/Special:FilePath/Plum_Pudding.png" alt="Plum Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Plum_Pudding">Plum Pudding</a></li>
+			<li data-id="crafting_1_56"><img src="https://stardewvalleywiki.com/Special:FilePath/Artichoke_Dip.png" alt="Artichoke Dip" class="checklist-icon"><a href="https://stardewvalleywiki.com/Artichoke_Dip">Artichoke Dip</a></li>
+			<li data-id="crafting_1_57"><img src="https://stardewvalleywiki.com/Special:FilePath/Stir_Fry.png" alt="Stir Fry" class="checklist-icon"><a href="https://stardewvalleywiki.com/Stir_Fry">Stir Fry</a></li>
+			<li data-id="crafting_1_58"><img src="https://stardewvalleywiki.com/Special:FilePath/Roasted_Hazelnuts.png" alt="Roasted Hazelnuts" class="checklist-icon"><a href="https://stardewvalleywiki.com/Roasted_Hazelnuts">Roasted Hazelnuts</a></li>
+			<li data-id="crafting_1_59"><img src="https://stardewvalleywiki.com/Special:FilePath/Pumpkin_Pie.png" alt="Pumpkin Pie" class="checklist-icon"><a href="https://stardewvalleywiki.com/Pumpkin_Pie">Pumpkin Pie</a></li>
+			<li data-id="crafting_1_60"><img src="https://stardewvalleywiki.com/Special:FilePath/Radish_Salad.png" alt="Radish Salad" class="checklist-icon"><a href="https://stardewvalleywiki.com/Radish_Salad">Radish Salad</a></li>
+			<li data-id="crafting_1_61"><img src="https://stardewvalleywiki.com/Special:FilePath/Fruit_Salad.png" alt="Fruit Salad" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fruit_Salad">Fruit Salad</a></li>
+			<li data-id="crafting_1_62"><img src="https://stardewvalleywiki.com/Special:FilePath/Blackberry_Cobbler.png" alt="Blackberry Cobbler" class="checklist-icon"><a href="https://stardewvalleywiki.com/Blackberry_Cobbler">Blackberry Cobbler</a></li>
+			<li data-id="crafting_1_63"><img src="https://stardewvalleywiki.com/Special:FilePath/Cranberry_Candy.png" alt="Cranberry Candy" class="checklist-icon"><a href="https://stardewvalleywiki.com/Cranberry_Candy">Cranberry Candy</a></li>
+			<li data-id="crafting_1_64"><img src="https://stardewvalleywiki.com/Special:FilePath/Bruschetta.png" alt="Bruschetta" class="checklist-icon"><a href="https://stardewvalleywiki.com/Bruschetta">Bruschetta</a></li>
+			<li data-id="crafting_1_65"><img src="https://stardewvalleywiki.com/Special:FilePath/Coleslaw.png" alt="Coleslaw" class="checklist-icon"><a href="https://stardewvalleywiki.com/Coleslaw">Coleslaw</a></li>
+			<li data-id="crafting_1_66"><img src="https://stardewvalleywiki.com/Special:FilePath/Fiddlehead_Risotto.png" alt="Fiddlehead Risotto" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fiddlehead_Risotto">Fiddlehead Risotto</a></li>
+			<li data-id="crafting_1_67"><img src="https://stardewvalleywiki.com/Special:FilePath/Poppyseed_Muffin.png" alt="Poppyseed Muffin" class="checklist-icon"><a href="https://stardewvalleywiki.com/Poppyseed_Muffin">Poppyseed Muffin</a></li>
+			<li data-id="crafting_1_68"><img src="https://stardewvalleywiki.com/Special:FilePath/Chowder.png" alt="Chowder" class="checklist-icon"><a href="https://stardewvalleywiki.com/Chowder">Chowder</a></li>
+			<li data-id="crafting_1_69"><img src="https://stardewvalleywiki.com/Special:FilePath/Fish_Stew.png" alt="Fish Stew" class="checklist-icon"><a href="https://stardewvalleywiki.com/Fish_Stew">Fish Stew</a></li>
+			<li data-id="crafting_1_70"><img src="https://stardewvalleywiki.com/Special:FilePath/Escargot.png" alt="Escargot" class="checklist-icon"><a href="https://stardewvalleywiki.com/Escargot">Escargot</a></li>
+			<li data-id="crafting_1_71"><img src="https://stardewvalleywiki.com/Special:FilePath/Lobster_Bisque.png" alt="Lobster Bisque" class="checklist-icon"><a href="https://stardewvalleywiki.com/Lobster_Bisque">Lobster Bisque</a></li>
+			<li data-id="crafting_1_72"><img src="https://stardewvalleywiki.com/Special:FilePath/Maple_Bar.png" alt="Maple Bar" class="checklist-icon"><a href="https://stardewvalleywiki.com/Maple_Bar">Maple Bar</a></li>
+			<li data-id="crafting_1_73"><img src="https://stardewvalleywiki.com/Special:FilePath/Crab_Cakes.png" alt="Crab Cakes" class="checklist-icon"><a href="https://stardewvalleywiki.com/Crab_Cakes">Crab Cakes</a></li>
+			<li data-id="crafting_1_74"><img src="https://stardewvalleywiki.com/Special:FilePath/Shrimp_Cocktail.png" alt="Shrimp Cocktail" class="checklist-icon"><a href="https://stardewvalleywiki.com/Shrimp_Cocktail">Shrimp Cocktail</a></li>
+			<li data-id="crafting_1_75"><img src="https://stardewvalleywiki.com/Special:FilePath/Ginger_Ale.png" alt="Ginger Ale" class="checklist-icon"><a href="https://stardewvalleywiki.com/Ginger_Ale">Ginger Ale</a></li>
+			<li data-id="crafting_1_76"><img src="https://stardewvalleywiki.com/Special:FilePath/Banana_Pudding.png" alt="Banana Pudding" class="checklist-icon"><a href="https://stardewvalleywiki.com/Banana_Pudding">Banana Pudding</a></li>
+			<li data-id="crafting_1_77"><img src="https://stardewvalleywiki.com/Special:FilePath/Mango_Sticky_Rice.png" alt="Mango Sticky Rice" class="checklist-icon"><a href="https://stardewvalleywiki.com/Mango_Sticky_Rice">Mango Sticky Rice</a></li>
+			<li data-id="crafting_1_78"><img src="https://stardewvalleywiki.com/Special:FilePath/Poi.png" alt="Poi" class="checklist-icon"><a href="https://stardewvalleywiki.com/Poi">Poi</a></li>
+			<li data-id="crafting_1_79"><img src="https://stardewvalleywiki.com/Special:FilePath/Tropical_Curry.png" alt="Tropical Curry" class="checklist-icon"><a href="https://stardewvalleywiki.com/Tropical_Curry">Tropical Curry</a></li>
+			<li data-id="crafting_1_80"><img src="https://stardewvalleywiki.com/Special:FilePath/Squid_Ink_Ravioli.png" alt="Squid Ink Ravioli" class="checklist-icon"><a href="https://stardewvalleywiki.com/Squid_Ink_Ravioli">Squid Ink Ravioli</a></li>
+			<li data-id="crafting_1_81"><img src="https://stardewvalleywiki.com/Special:FilePath/Moss_Soup.png" alt="Moss Soup" class="checklist-icon"><a href="https://stardewvalleywiki.com/Moss_Soup">Moss Soup</a></li>
           </ul>
         </div>
       </div>
